@@ -1,11 +1,11 @@
 function submitForm() {
-let name =document.getElementById('namestudent');
+let name =document.getElementById('namestudent').value;
 let nameValue=name;
-let semester=document.getElementById('semester');
+let semester=document.getElementById('semester').value;
 let semValue=semester;
-let cgpa =document.getElementById('cgpa');
+let cgpa =document.getElementById('cgpa').value;
 let cgpaValue=Number(cgpa);
-let rollNo=document.getElementById('rollno');
+let rollNo=document.getElementById('rollno').value;
 let rollValue=Number(rollNo);
 
 let studentDetails={
