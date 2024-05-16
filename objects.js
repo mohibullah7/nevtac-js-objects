@@ -9,10 +9,10 @@ let rollNo=document.getElementById('rollno').value;
 let rollValue=Number(rollNo);
 
 let studentDetails={
-  studentName : "mohib",
-  currentSemester: 'eight',
-  currentCgpa : 4,
-  studentRollNo :838928,
+  studentName : nameValue,
+  currentSemester: semValue,
+  currentCgpa : cgpaValue,
+  studentRollNo :rollValue,
   
 }
 
@@ -27,12 +27,17 @@ let studentDetails={
 // window.alert("show message");
 // console.log(studentDetails);
 
+// let studentAllData="";
+// for (let x in studentDetails) {
+//  studentAllData+=studentDetails[x]+"<br/>"
+// }
+
 let studentAllData="";
-for (let key in studentDetails) {
- studentAllData+=studentDetails[key]+"<br/>"
+for (let x in studentDetails) {
+ studentAllData+=studentDetails[x]+"<br/>"
 }
 
-let output=document.getElementById('show').innerHTML=studentAllData;
+let output=document.getElementById('show').innerHTML=studentAllData + studentAllData.indexOf(2);
 }
 
 // console.log("show this")
