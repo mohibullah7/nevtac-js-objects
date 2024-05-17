@@ -45,5 +45,6 @@ let obejects ={
   cnic:3232832392,
 phone:3827382
 }
-
+const conatct=[829328,3232,32323,32323,3232];
+const names=['jahsj','jahsjah','khan']
 // console.log("show this")
