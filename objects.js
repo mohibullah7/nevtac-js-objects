@@ -40,4 +40,10 @@ for (let x in studentDetails) {
 let output=document.getElementById('show').innerHTML=studentAllData + studentAllData.indexOf(2);
 }
 
+let obejects ={
+  name:'mohib khan',
+  cnic:3232832392,
+phone:3827382
+}
+
 // console.log("show this")
